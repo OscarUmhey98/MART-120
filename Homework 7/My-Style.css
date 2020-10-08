@@ -1,0 +1,7 @@
+body {background-color: bisque;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+#redstyle {color: crimson; font-size: 72px;}
+#littleredstyle {color: crimson; font-size: 24px}
