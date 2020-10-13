@@ -2,18 +2,47 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="My-Style.css">
+    <script>
+        function getdata()
+        {
+            var name;
+            name = document.getElementById("Name").value;
+            if(name == "")
+            {
+                window.alert("Please enter your full name")
+            }
+            var email = document.getElementById("Email").value;
+            if(email == "")
+            {
+                window.alert("Please enter your email")
+            }
+            var phone = document.getElementById("Phone").value;
+            if(phone == "")
+            {
+                window.alert("Please enter your phone number")
+            }
+            window.alert("finalResult").innerHTML = "Name: " + name + "Email: " + email + " Phone: " + phone;
+        }
+    </script>
 </head>
     <body>Let me contact you!</body>
     <body>
         <form action="nextpage.html" type="post">
             Full Name: <input type="text" id="Name">
+            Phone: <input type="text" id="Phone">
             Email: <input type="text" id="Email">
             <body>Do you accept the terms of agreement?</body>
             <select>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
             </select>
-            <button class="btn btn-primary" id="Submit" type="submit">Submit</button>
+            <td colspan="2"><button class="btn btn-primary" id="Submit" type="submit" onclick="checkform();>Submit</button></td>
         </form>
+        <div id="final result"></div>
     </body>
+<head>
+<body>
+    <a href="file:///C:/Users/Oscar/Documents/School%20Papers/Creative%20Coding/HTML%20Pages/game.html">Try some math!</a>
+</body>
+</head>
 </html>
