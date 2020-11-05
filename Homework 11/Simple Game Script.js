@@ -75,10 +75,10 @@ function draw()
         textSize(48);
         text("ESCAPED", width/2-50, height/2-50);
     }
+}
 
     fill(120,130,140);
     circle(mouseShapeX, mouseShapeY, 25);
-}
 
 function mouseClicked()
 {
